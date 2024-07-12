@@ -1,0 +1,156 @@
+h1{
+    background-color: brown;
+    color: white;
+    text-align: center;
+    padding: 50px;
+    
+}
+
+
+body{
+   
+}
+nav{
+    background-color: rgb(158, 155, 157);
+    font-size: medium;
+    
+    color: rgb(17, 221, 153);
+    display: inline-block;
+   
+    padding: 5px;
+    margin: 5px;
+    
+}
+a{
+    text-decoration: none;
+    text-align: center;
+}
+a:hover{
+    cursor: pointer;
+    background-color: hsl(107, 8%, 53%);
+}
+a:active{
+    cursor: pointer;
+    background-color: hsl(192, 23%, 55%);
+}
+.foot { 
+    position: absolute; 
+    margin: auto;
+    width: 100%;
+    bottom: 0; 
+    left: 20; 
+    z-index: 10;
+}
+h4{
+    text-align: center;
+    background-color: aqua;
+    color: blue;
+}
+.radio
+{
+  
+   
+
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    color: black;
+    padding: 5px;
+    font-size: large;
+    
+}
+#sizes
+{
+    text-align:center;
+    
+    background-color:aliceblue;
+    color: black;
+    padding: 5px;
+    
+}
+
+#crust
+{
+    text-align:center;
+    
+    background-color:aliceblue;
+    color: black;
+    padding: 5px;
+    
+}
+
+.radio1
+{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    color: black;
+    padding: 5px;
+    font-size: large;
+    
+}
+
+#sauce
+{
+    text-align:center;
+    
+    background-color:aliceblue;
+    color: black;
+    padding: 5px;
+    
+}
+
+.radio2
+{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    color: black;
+    padding: 5px;
+    font-size: large;
+    
+}
+
+#Sepcaility
+{
+    text-align:center;
+    
+    background-color:aliceblue;
+    color: black;
+    padding: 5px;
+    
+}
+#ingredients h3
+{
+    text-align:center;
+    
+    
+    color: black;
+    padding: 5px;
+    
+}
+
+#ingredients .one
+{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    color: black;
+    padding: 5px;
+    font-size: large;
+    
+}
+#Sepcaility .pizzatype
+{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    color: black;
+    padding: 5px;
+    font-size: large;
+    
+}
+
+
+
+

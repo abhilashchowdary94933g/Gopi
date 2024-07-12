@@ -1,0 +1,50 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: aquamarine;
+    border : solid;
+}
+.login .user
+{
+    padding: 0.5vh;
+  
+    border-radius: 10%;
+}
+.login .pass
+{
+    padding: 0.5vh;
+  
+    border-radius: 10%;
+}
+.login .remember-me
+{
+    padding: 0.5vh;
+  
+    
+}
+.login .forget
+{
+    padding: 0.5vh;
+  
+}
+.login .signin
+{
+    padding: 1vh;
+    
+    border-radius: 10%;
+    
+}
+.login{
+    background-color:antiquewhite;
+}
+.login .signin a
+{
+   text-decoration: none;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customizable Burger Order</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Order Your Burger</h1>
+    <form id="burgerForm">
+        <label for="burgerType">Choose your burger:</label>
+        <select id="burgerType">
+            <option value="">Select a burger</option>
+            <option value="chicken">Chicken Burger</option>
+            <option value="beef">Beef Burger</option>
+            <option value="veggie">Veggie Burger</option>
+        </select>
+
+        <div id="ingredients" style="display: none;">
+            <h3>Select Ingredients:</h3>
+            <label>
+                <input type="checkbox" name="lettuce"> Lettuce
+            </label>
+            <label>
+                <input type="checkbox" name="tomato"> Tomato
+            </label>
+            <label>
+                <input type="checkbox" name="cheese"> Cheese
+            </label>
+            <label>
+                <input type="checkbox" name="onions"> Onions
+            </label>
+        </div>
+
+        <button type="submit">Order Now</button>
+    </form>
+
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
